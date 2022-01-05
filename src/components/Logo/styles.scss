@@ -1,0 +1,20 @@
+.cfLogo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logo{
+        font-size: 25px;
+        color:#c8a23d;
+        background-color: #10545c;
+        padding:6px;
+        border-radius: 50%;
+        margin-right: 0.4em;
+    }
+    span{
+        text-align: left;
+        font-size: 14px;
+        color: #10545c;
+
+    }
+}

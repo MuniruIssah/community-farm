@@ -1,0 +1,15 @@
+.savedList {
+  display: flex;
+  margin: 0px 1rem;
+  align-items: center;
+  border: none;
+  background: none;
+
+  .icon {
+    color: #10545c;
+  }
+  span {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}

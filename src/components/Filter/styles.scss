@@ -1,0 +1,16 @@
+.filter {
+  display: flex;
+  margin: 0px 1rem;
+  align-items: center;
+
+  .icon {
+    color: #10545c;
+  }
+
+  select {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+}

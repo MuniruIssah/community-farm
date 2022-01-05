@@ -1,0 +1,27 @@
+.productScrollList {
+  display: flex;
+  margin: 1rem 0px;
+  overflow-x: auto;
+  padding-bottom: 0.7rem;
+
+  &::-webkit-scrollbar {
+    height: 3px;
+    background: rgba(136, 152, 170, 0.25);
+    margin-top: 5px;
+    border-radius: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #8898aa;
+    border-radius: 8px;
+  }
+
+  .productCategoryListItem {
+    margin: 0px 1.65rem;
+    &:first-child {
+      margin-left: 0rem;
+    }
+    &:last-child {
+      margin-right: 0rem;
+    }
+  }
+}

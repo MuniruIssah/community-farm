@@ -1,0 +1,15 @@
+.cfHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    border-bottom: 1px solid lightgrey;
+    padding: 0px 4rem;
+
+    div{
+        display: flex;
+    }
+    .user{
+        margin: 0px 1rem;
+    }
+}

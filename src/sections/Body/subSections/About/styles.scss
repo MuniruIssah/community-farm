@@ -1,0 +1,39 @@
+.cfabout {
+  margin: 3.5rem 0px;
+  text-align: left;
+  background-image: url(../../../../assets/pablita-delivery.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  // backgro
+  span {
+    display: block;
+    &:first-child {
+      color: #f4c872;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    &:nth-child(2) {
+      font-size: 40px;
+      color: #14545f;
+      font-weight: bold;
+    }
+  }
+
+  button {
+    background-color: #fba611;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 55em) {
+  .cfabout {
+    background: none;
+    text-align: center;
+  }
+}

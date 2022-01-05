@@ -1,0 +1,21 @@
+.searchBar{
+    border: 1.5px solid #739aa1;
+    border-radius: 10px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    padding:0px 1em ;
+    height: 3.5vh;
+
+    input{
+        width: 100%;
+        border: none;
+        outline: none;
+        &::placeholder{
+            color: #b1c0b7;
+        }
+    }
+    .searchIcon{
+        color: #739aa1;
+    }
+}

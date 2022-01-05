@@ -1,0 +1,29 @@
+.cfJumbotron{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../../assets/veg.png);
+    background-size: contain;
+    // background-repeat: no-repeat;
+    background-color: #c9ebde;
+    border-radius: 20px;
+
+    span{
+        display: block;
+        // color: #2f3f39;
+        background-color: #c9ebde;
+        &:first-child { 
+            font-size: 40px;
+            color : #0c101b;
+          font-weight: 600;
+          padding-bottom: 1rem;
+        }
+        &:nth-child(2) {
+          font-size: 18px;
+          color: #41545e;
+          font-weight: 500;
+        }
+    }
+}
